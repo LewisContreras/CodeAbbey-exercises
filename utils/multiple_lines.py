@@ -6,7 +6,7 @@ def main():
         num_cases -= 1
         value = input()
         res = other(value)
-        results += str(res) + " "
+        results = f"{res} {results}"
     
     print(results.rstrip())
 
